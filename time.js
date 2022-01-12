@@ -19,7 +19,7 @@ function showTime() {
             sec = sec < 10 ? "0" + sec : sec;
   
             let currentTime = hour + ":" 
-                + min + ":" + sec + am_pm;
+                + min +  am_pm;
   
             document.getElementById("clock")
         .innerHTML = currentTime;
